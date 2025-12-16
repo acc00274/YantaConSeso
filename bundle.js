@@ -157,24 +157,161 @@ const SeedData = [
         tags: ['Italiana', 'Rápida'],
         allergies: ['Gluten', 'Huevo', 'Lácteos'],
         image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=500&q=60'
+    },
+    {
+        id: 'receta_11',
+        name: 'Gazpacho Andaluz',
+        ingredients: ['Tomate Pera', 'Pimiento Verde', 'Pepino', 'Diente de Ajo', 'Aceite de Oliva', 'Vinagre', 'Pan (Opcional)'],
+        instructions: '1. Lavar verduras y trocear.\n2. Triturar todo muy fino.\n3. Añadir aceite y vinagre.\n4. Colar y servir muy frío.',
+        tags: ['Andaluza', 'Verano'],
+        allergies: ['Gluten'],
+        image: 'https://images.unsplash.com/photo-1598511797337-1d547d519d1f?auto=format&fit=crop&w=500&q=60'
+    },
+    {
+        id: 'receta_12',
+        name: 'Salmorejo Cordobés',
+        ingredients: ['Tomate', 'Pan de Telera', 'Aceite de Oliva', 'Ajo', 'Huevo Duro', 'Jamón Serrano'],
+        instructions: '1. Triturar tomate con ajo.\n2. Añadir pan y triturar.\n3. Emulsionar con aceite.\n4. Decorar con huevo y jamón.',
+        tags: ['Andaluza', 'Sopa Fría'],
+        allergies: ['Gluten', 'Huevo'],
+        image: 'https://images.unsplash.com/photo-1621532570081-37f26d2d3a9d?auto=format&fit=crop&w=500&q=60'
+    },
+    {
+        id: 'receta_13',
+        name: 'Flamenquín Cordobés',
+        ingredients: ['Lomo de Cerdo', 'Jamón Serrano', 'Queso', 'Huevo', 'Pan Rallado', 'Aceite'],
+        instructions: '1. Aplanar filetes de lomo.\n2. Rellenar con jamón y queso.\n3. Enrollar y empanar.\n4. Freír hasta dorar.',
+        tags: ['Andaluza', 'Carne'],
+        allergies: ['Gluten', 'Lácteos', 'Huevo', 'Cerdo'],
+        image: 'https://images.unsplash.com/photo-1594911776950-c6d98a09b307?auto=format&fit=crop&w=500&q=60' // Placeholder for fried roll
+    },
+    {
+        id: 'receta_14',
+        name: 'Espinacas con Garbanzos',
+        ingredients: ['Espinacas', 'Garbanzos Cocidos', 'Pan Frito', 'Ajo', 'Comino', 'Pimentón'],
+        instructions: '1. Cocer espinacas.\n2. Majar ajo, pan frito y especias.\n3. Sofreír todo junto con los garbanzos.',
+        tags: ['Andaluza', 'Guiso'],
+        allergies: ['Gluten'],
+        image: 'https://images.unsplash.com/photo-1506505706240-a392e21b069d?auto=format&fit=crop&w=500&q=60' // General vegan stew
+    },
+    {
+        id: 'receta_15',
+        name: 'Gambas al Ajillo',
+        ingredients: ['Gambas', 'Ajo Laminado', 'Guindilla', 'Aceite de Oliva', 'Perejil'],
+        instructions: '1. Calentar aceite con ajo y guindilla.\n2. Añadir gambas (cuidado salpica).\n3. Cocinar 2 min y servir en cazuela.',
+        tags: ['Andaluza', 'Tapa'],
+        allergies: ['Mariscos'],
+        image: 'https://images.unsplash.com/photo-1625943555419-56a2cb596640?auto=format&fit=crop&w=500&q=60' // Shrimp
+    },
+    {
+        id: 'receta_11',
+        name: 'Gambas al Ajillo (Huelva)',
+        ingredients: ['Gambas Blancas', 'Ajo', 'Guindilla', 'Aceite de Oliva', 'Perejil'],
+        instructions: '1. Calentar aceite con ajo láminado y guindilla.\n2. Añadir gambas y cocinar 1-2 min.\n3. Servir hirviendo en cazuela de barro.',
+        tags: ['Andaluza', 'Huelva', 'Tapa'],
+        allergies: ['Mariscos'],
+        image: 'https://images.unsplash.com/photo-1625943555419-56a2cb596640?auto=format&fit=crop&w=500&q=60'
+    },
+    {
+        id: 'receta_12',
+        name: 'Tortillitas de Camarones (Cádiz)',
+        ingredients: ['Camarones', 'Harina de Trigo', 'Harina de Garbanzo', 'Cebolleta', 'Perejil', 'Agua muy fría'],
+        instructions: '1. Mezclar harinas, cebolleta, perejil y camarones.\n2. Añadir agua fría hasta obtener masa líquida.\n3. Freír cucharadas en aceite muy caliente hasta que queden como encaje.',
+        tags: ['Andaluza', 'Cádiz', 'Fritura'],
+        allergies: ['Gluten', 'Mariscos'],
+        image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=60' // General fried seafood
+    },
+    {
+        id: 'receta_13',
+        name: 'Huevos a la Flamenca (Sevilla)',
+        ingredients: ['Huevos', 'Tomate Frito', 'Guisantes', 'Chorizo', 'Jamón Serrano', 'Pimiento Morrón', 'Patatas'],
+        instructions: '1. Freír patatas en dados.\n2. En cazuela de barro, poner tomate, guisantes, patatas y embutidos.\n3. Cascar huevos encima.\n4. Hornear hasta que cuaje la clara.',
+        tags: ['Andaluza', 'Sevilla', 'Cena'],
+        allergies: ['Huevo'],
+        image: 'https://images.unsplash.com/photo-1525351440155-ad29119bcd81?auto=format&fit=crop&w=500&q=60' // Eggs in pan
+    },
+    {
+        id: 'receta_14',
+        name: 'Salmorejo Cordobés (Córdoba)',
+        ingredients: ['Tomate Rojo', 'Pan de Telera', 'Aceite de Oliva virgen extra', 'Ajo', 'Huevo Duro', 'Jamón'],
+        instructions: '1. Triturar tomates y ajo.\n2. Añadir pan y triturar más.\n3. Emulsionar con aceite poco a poco.\n4. Decorar con huevo picado y jamón.',
+        tags: ['Andaluza', 'Córdoba', 'Sopa Fría'],
+        allergies: ['Gluten', 'Huevo'],
+        image: 'https://images.unsplash.com/photo-1621532570081-37f26d2d3a9d?auto=format&fit=crop&w=500&q=60'
+    },
+    {
+        id: 'receta_15',
+        name: 'Ajoblanco (Málaga)',
+        ingredients: ['Almendras Crudas', 'Pan Duro', 'Ajo', 'Aceite de Oliva', 'Vinagre', 'Uvas o Melón'],
+        instructions: '1. Remojar el pan.\n2. Triturar almendras con ajo y sal.\n3. Añadir el pan y aceite.\n4. Servir muy frío con uvas y un chorrito de aceite.',
+        tags: ['Andaluza', 'Málaga', 'Sopa Fría'],
+        allergies: ['Gluten', 'Frutos Secos'],
+        image: 'https://images.unsplash.com/photo-1601344447330-8a2b25134700?auto=format&fit=crop&w=500&q=60' // White soup
+    },
+    {
+        id: 'receta_16',
+        name: 'Remojón Granadino (Granada)',
+        ingredients: ['Naranjas', 'Bacalao Desalado', 'Cebolleta', 'Aceitunas Negras', 'Huevo Duro', 'Aceite de Oliva'],
+        instructions: '1. Asar el bacalao o usar crudo desalado.\n2. Pelar y trocear naranjas.\n3. Mezclar con bacalao desmigado, cebolleta y aceitunas.\n4. Aliñar con abundante aceite.',
+        tags: ['Andaluza', 'Granada', 'Ensalada'],
+        allergies: ['Pescado', 'Huevo'],
+        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=60' // Salad
+    },
+    {
+        id: 'receta_17',
+        name: 'Pipirrana (Jaén)',
+        ingredients: ['Tomate', 'Pimiento Verde', 'Pepino', 'Atún', 'Huevo Duro', 'Aceite', 'Comino'],
+        instructions: '1. Picar verduras en dados muy pequeños.\n2. Añadir atún y huevo picado.\n3. Aliñar con emulsión de aceite, sal y comino.\n4. Comer con pan.',
+        tags: ['Andaluza', 'Jaén', 'Ensalada'],
+        allergies: ['Huevo', 'Pescado'],
+        image: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=500&q=60' // Fresh salad
     }
 ];
 
 function initializeSeedData() {
-    const existing = StorageService.get('recipes', []);
-    // Force re-seed if we have fewer than 10 recipes (implies old data)
-    if (!existing || existing.length < 10) {
-        console.log("Seeding initial data (Update)...");
+    // 1. Initial Fresh Install Check (Only runs once ever)
+    const isInitialized = StorageService.get('app_initialized', false);
+
+    if (!isInitialized) {
+        console.log("Fresh Install: Seeding initial data...");
         StorageService.save('recipes', SeedData);
-    } else {
-        // Migration: Fix Tacos specifically if they are Pescado
-        const tacos = existing.find(r => r.id === 'receta_3');
-        if (tacos && tacos.name === 'Tacos de Pescado') {
-            const index = existing.findIndex(r => r.id === 'receta_3');
-            existing[index] = SeedData.find(r => r.id === 'receta_3');
+        StorageService.save('app_initialized', true);
+        StorageService.save('migration_andalusia_v3', true); // Mark future migrations as done for fresh install
+        return;
+    }
+
+    // 2. Andalusian Migration (One-time run for existing users)
+    const migrationApplied = StorageService.get('migration_andalusia_v3', false);
+
+    if (!migrationApplied) {
+        console.log("Running Andalusian Migration...");
+        const existing = StorageService.get('recipes', []);
+
+        // Force update/inject IDs 11-17 from SeedData (The 7 Provincial Recipes)
+        const newRecipes = SeedData.filter(r => {
+            const parts = r.id.split('_');
+            if (parts.length < 2) return false;
+            const idNum = parseInt(parts[1]);
+            return idNum >= 11 && idNum <= 17;
+        });
+
+        let updatedCount = 0;
+        newRecipes.forEach(newR => {
+            const index = existing.findIndex(r => r.id === newR.id);
+            if (index !== -1) {
+                existing[index] = newR; // Overwrite to ensure correct data
+            } else {
+                existing.push(newR); // Inject if missing
+            }
+            updatedCount++;
+        });
+
+        if (updatedCount > 0) {
             StorageService.save('recipes', existing);
-            console.log("Migrated Tacos to Al Pastor");
+            console.log(`Migrated ${updatedCount} Andalusian recipes.`);
         }
+
+        StorageService.save('migration_andalusia_v3', true);
     }
 }
 
@@ -696,18 +833,21 @@ class RecipeListUI {
             card.style.borderRadius = 'var(--radius-sm)';
             card.style.marginBottom = '10px';
             card.style.cursor = 'pointer';
-            card.style.overflow = 'hidden'; // For image
+            card.style.overflow = 'visible'; // Allow content to flow
             card.style.transition = 'background 0.2s';
 
             card.onmouseover = () => card.style.background = 'rgba(255,255,255,0.1)';
             card.onmouseout = () => card.style.background = 'rgba(255,255,255,0.05)';
-            card.onclick = () => this.appManager.showEditRecipe(recipe);
+            // NAVIGATION FIX: Pass callback to return to THIS list view
+            // Uses showSearchRecipe which is the correct method name in AppManager
+            card.onclick = () => this.appManager.showEditRecipe(recipe, () => this.appManager.showSearchRecipe());
 
             // Image
             const img = document.createElement('div');
             img.style.height = '120px';
             img.style.background = `url(${recipe.image}) center/cover no-repeat`;
             img.style.width = '100%';
+            img.style.borderRadius = 'var(--radius-sm) var(--radius-sm) 0 0';
 
             const info = document.createElement('div');
             info.style.padding = '15px';
@@ -715,6 +855,12 @@ class RecipeListUI {
             const rName = document.createElement('h3');
             rName.innerText = recipe.name;
             rName.style.fontSize = '1.1rem';
+            rName.style.lineHeight = '1.3';
+            rName.style.marginBottom = '5px';
+            rName.style.whiteSpace = 'normal';
+            rName.style.wordBreak = 'break-word';
+            rName.style.overflow = 'visible';
+            rName.style.height = 'auto';
 
             const rIng = document.createElement('p');
             rIng.innerText = `${recipe.ingredients.length} Ingredientes`;
@@ -732,10 +878,11 @@ class RecipeListUI {
 }
 
 class RecipeFormUI {
-    constructor(appManager, recipeToEdit = null) {
+    constructor(appManager, recipeToEdit = null, returnToCallback = null) {
         this.appManager = appManager;
         this.recipe = recipeToEdit;
         this.isEdit = !!recipeToEdit;
+        this.returnToCallback = returnToCallback;
     }
 
     render() {
@@ -757,7 +904,13 @@ class RecipeFormUI {
         backBtn.className = 'btn-secondary';
         backBtn.innerHTML = '<i class="bi bi-arrow-left"></i>';
         backBtn.style.padding = '8px 12px';
-        backBtn.onclick = () => this.appManager.showMainMenu();
+        backBtn.onclick = () => {
+            if (this.returnToCallback) {
+                this.returnToCallback();
+            } else {
+                this.appManager.showMainMenu();
+            }
+        };
 
         const title = document.createElement('h2');
         title.innerText = this.isEdit ? 'Editar Receta' : 'Nueva Receta';
@@ -938,6 +1091,31 @@ class RecipeFormUI {
         submitBtn.type = 'submit';
         submitBtn.className = 'btn-primary';
         submitBtn.innerText = this.isEdit ? 'Guardar Cambios' : 'Crear Receta';
+
+        form.appendChild(submitBtn);
+
+        if (this.isEdit) {
+            const deleteBtn = document.createElement('button');
+            deleteBtn.type = 'button';
+            deleteBtn.className = 'btn-secondary';
+            deleteBtn.style.marginTop = '10px';
+            deleteBtn.style.background = 'rgba(255, 99, 71, 0.2)';
+            deleteBtn.style.color = '#ff6b6b';
+            deleteBtn.style.width = '100%';
+            deleteBtn.innerHTML = '<i class="bi bi-trash"></i> Eliminar Receta';
+            deleteBtn.onclick = () => {
+                if (confirm('¿Seguro que quieres borrar esta receta? Esta acción no se puede deshacer.')) {
+                    this.appManager.recipeManager.deleteRecipe(this.recipe.id);
+                    // Return to previous view or main menu after delete
+                    if (this.returnToCallback) {
+                        this.returnToCallback();
+                    } else {
+                        this.appManager.showMainMenu();
+                    }
+                }
+            };
+            form.appendChild(deleteBtn);
+        }
         submitBtn.style.marginTop = '20px';
 
         form.appendChild(imgGroup);
@@ -1011,7 +1189,11 @@ class RecipeFormUI {
             alert('Receta creada!');
         }
 
-        this.appManager.showMainMenu();
+        if (this.returnToCallback) {
+            this.returnToCallback();
+        } else {
+            this.appManager.showMainMenu();
+        }
     }
 }
 
@@ -1190,7 +1372,7 @@ class PlanUI {
 
             recipeCard.onclick = (e) => {
                 if (!e.target.closest('.swap-btn')) {
-                    this.appManager.showEditRecipe(item.recipe);
+                    this.showRecipeDetail(item.recipe);
                 }
             };
 
@@ -1205,7 +1387,7 @@ class PlanUI {
             info.style.flex = '1';
 
             info.innerHTML = `
-                    <h3 style="margin: 0 0 5px 0; font-size: 1.1rem">${item.recipe.name}</h3>
+                    <h3 style="margin: 0 0 5px 0; font-size: 1.1rem; white-space: normal; word-break: break-word; line-height: 1.3;">${item.recipe.name}</h3>
                     <p style="color: var(--text-muted); font-size: 0.9rem">${item.recipe.ingredients.length} Ingredientes</p>
                 `;
 
@@ -1427,6 +1609,133 @@ class PlanUI {
         overlay.appendChild(modal);
         document.body.appendChild(overlay);
     }
+
+    showRecipeDetail(recipe) {
+        const overlay = document.createElement('div');
+        overlay.style.position = 'fixed';
+        overlay.style.top = '0';
+        overlay.style.left = '0';
+        overlay.style.width = '100%';
+        overlay.style.height = '100%';
+        overlay.style.background = 'rgba(0,0,0,0.8)';
+        overlay.style.display = 'flex';
+        overlay.style.justifyContent = 'center';
+        overlay.style.alignItems = 'center';
+        overlay.style.zIndex = '1000';
+        overlay.className = 'fade-in';
+
+        const modal = document.createElement('div');
+        modal.className = 'glass-panel';
+        modal.style.width = '90%';
+        modal.style.maxWidth = '600px';
+        modal.style.maxHeight = '85vh';
+        modal.style.overflowY = 'auto';
+        modal.style.borderRadius = 'var(--radius-lg)';
+        modal.style.position = 'relative';
+
+        // Close button
+        const closeBtn = document.createElement('button');
+        closeBtn.innerHTML = '&times;';
+        closeBtn.style.position = 'absolute';
+        closeBtn.style.top = '15px';
+        closeBtn.style.right = '20px';
+        closeBtn.style.background = 'rgba(0,0,0,0.5)';
+        closeBtn.style.border = 'none';
+        closeBtn.style.borderRadius = '50%';
+        closeBtn.style.width = '35px';
+        closeBtn.style.height = '35px';
+        closeBtn.style.fontSize = '1.5rem';
+        closeBtn.style.color = 'white';
+        closeBtn.style.cursor = 'pointer';
+        closeBtn.style.zIndex = '2';
+        closeBtn.onclick = () => document.body.removeChild(overlay);
+        modal.appendChild(closeBtn);
+
+        // Image Header
+        const imgHeader = document.createElement('div');
+        imgHeader.style.height = '200px';
+        imgHeader.style.background = `url(${recipe.image}) center/cover no-repeat`;
+        modal.appendChild(imgHeader);
+
+        // Content
+        const content = document.createElement('div');
+        content.style.padding = '25px';
+
+        const title = document.createElement('h2');
+        title.innerText = recipe.name;
+        title.style.marginBottom = '15px';
+        title.style.color = 'var(--primary)';
+
+        const meta = document.createElement('div');
+        meta.style.display = 'flex';
+        meta.style.gap = '15px';
+        meta.style.marginBottom = '20px';
+        meta.style.fontSize = '0.9rem';
+        meta.style.color = 'var(--text-muted)';
+
+        const allergyCount = recipe.allergies ? recipe.allergies.length : 0;
+        meta.innerHTML = `
+            <span><i class="bi bi-basket"></i> ${recipe.ingredients.length} Ingredientes</span>
+            <span><i class="bi bi-exclamation-triangle"></i> ${allergyCount} Alérgenos</span>
+        `;
+
+        const ingredientsTitle = document.createElement('h3');
+        ingredientsTitle.innerText = 'Ingredientes';
+        ingredientsTitle.style.fontSize = '1.1rem';
+        ingredientsTitle.style.marginTop = '20px';
+        ingredientsTitle.style.marginBottom = '10px';
+
+        const ingredientsList = document.createElement('ul');
+        ingredientsList.style.paddingLeft = '20px';
+        recipe.ingredients.forEach(ing => {
+            const li = document.createElement('li');
+            li.innerText = ing;
+            li.style.marginBottom = '5px';
+            ingredientsList.appendChild(li);
+        });
+
+        const instructionsTitle = document.createElement('h3');
+        instructionsTitle.innerText = 'Instrucciones';
+        instructionsTitle.style.fontSize = '1.1rem';
+        instructionsTitle.style.marginTop = '20px';
+        instructionsTitle.style.marginBottom = '10px';
+
+        const instructionsText = document.createElement('div');
+        instructionsText.style.lineHeight = '1.6';
+        instructionsText.innerHTML = recipe.instructions.replace(/\n/g, '<br>');
+
+        content.appendChild(title);
+        content.appendChild(meta);
+
+        if (recipe.allergies && recipe.allergies.length > 0) {
+            const allergyContainer = document.createElement('div');
+            allergyContainer.style.display = 'flex';
+            allergyContainer.style.gap = '8px';
+            allergyContainer.style.marginBottom = '20px';
+            allergyContainer.style.flexWrap = 'wrap';
+
+            recipe.allergies.forEach(a => {
+                const tag = document.createElement('span');
+                tag.innerText = a;
+                tag.style.background = 'rgba(255, 99, 71, 0.2)';
+                tag.style.color = '#ff6b6b';
+                tag.style.padding = '4px 10px';
+                tag.style.borderRadius = '20px';
+                tag.style.fontSize = '0.85rem';
+                allergyContainer.appendChild(tag);
+            });
+            content.appendChild(allergyContainer);
+        }
+
+        content.appendChild(ingredientsTitle);
+        content.appendChild(ingredientsList);
+        content.appendChild(instructionsTitle);
+        content.appendChild(instructionsText);
+
+        modal.appendChild(content);
+        overlay.appendChild(modal);
+        document.body.appendChild(overlay);
+    }
 }
 
 class AllergyUI {
@@ -1587,12 +1896,12 @@ class AppManager {
         this.updateView(new MainMenuUI(this).render());
     }
 
-    showCreateRecipe() {
-        this.updateView(new RecipeFormUI(this).render());
+    showCreateRecipe(returnToCallback = null) {
+        this.updateView(new RecipeFormUI(this, null, returnToCallback).render());
     }
 
-    showEditRecipe(recipe) {
-        this.updateView(new RecipeFormUI(this, recipe).render());
+    showEditRecipe(recipe, returnToCallback = null) {
+        this.updateView(new RecipeFormUI(this, recipe, returnToCallback).render());
     }
 
     showSearchRecipe() {
